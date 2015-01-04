@@ -1,13 +1,22 @@
 #title {
-
+	width: 300px;
+    text-align: center;
+    height: 50px;
+    margin: auto;
 }
 #subtitle {
-
+	width: 300px;
+    text-align: center;
+    height: 50px;
+    margin: auto;
 }
 #date {
-
+	width: 300px;
+    text-align: center;
+    height: 50px;
+    margin: auto;
 }
 
 .post {
-	
+	text-align: center
 }
