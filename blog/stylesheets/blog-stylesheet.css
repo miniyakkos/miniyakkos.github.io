@@ -1,22 +1,22 @@
 #title {
-	width: 300px;
+	width: auto;
     text-align: center;
     height: 50px;
     margin: auto;
 }
 #subtitle {
-	width: 300px;
+	width: auto;
     text-align: center;
     height: 50px;
     margin: auto;
 }
 #date {
-	width: 300px;
+	width: auto;
     text-align: center;
     height: 50px;
     margin: auto;
 }
-
-.post {
-	text-align: center
+section {
+    width: 60%;
+    margin: auto;
 }
