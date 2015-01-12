@@ -1,0 +1,25 @@
+/* include your css here */
+#pairprogrammingheader {
+	font-family: Julius Sans One, Garamond;
+    font-size: 45px;
+    background-color: #91AA9D;
+    color: #193441;
+    margin-bottom: 0px;
+    padding: 10px;
+}
+#pairprogrammingnames {
+    font-family: Arial;
+    font-size: 25px;
+    background-color: #D1DBBD;
+    margin-top: 0px;
+    padding-left: 10px;
+}
+.pairprogramming {
+    font-family: serif;
+    background-color: #3E606F;
+    color: #D1DBBD;
+    padding :20px;
+}
+.pairprogramming img {
+    width: 50%;
+}
