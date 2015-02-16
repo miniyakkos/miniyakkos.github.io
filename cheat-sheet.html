@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link type="text/css" rel="stylesheet" href="../blog/stylesheets/cheat-sheet-stylesheet.css"/>
+    <title>GIT Cheat Sheet</title>
+    <h1>GIT Cheat Sheet</h1>
+    <h2>by Ayako Kurushima & Brandi Ford</h2>
+  </head>
+<body>
+  <div>
+    <img src="http://assets.diylol.com/hfs/4a4/bc1/169/resized/hamster-meme-generator-git-push-origin-hamster-d41d8c.jpg">
+  </div>
+  <p>
+    <table>
+      <tr id="columnheads">
+        <td>Commands</td>
+        <td>Definitions</td>
+      </tr>
+      <tr>
+        <td class="command">git status</td>
+        <td>gives current state of git tracked file, as well as anything that is currently untracked.</td>
+      </tr>
+      <tr>
+        <td class="command">git add</td>
+        <td>stages files to be committed. ("git add ." - add everything currently tracked)</td>
+      </tr>
+      <tr>
+        <td class="command">git commit</td>
+        <td>saves the changes to all of the added files. "git commit -m "" " is used to give a short message for the committed files. "git commit -v "" " is used to give a verbose message and a sublime document will open.</td>
+      </tr>
+      <tr>
+        <td class="command">git push</td>
+        <td>pushes directory to your github. Based on the remotes that have been set up.</td>
+      </tr>
+      <tr>
+        <td class="command">git remote -v</td>
+        <td>checks the status of your remotes.</td>
+      </tr>
+      <tr>
+        <td class="command">git fetch</td>
+        <td>grabs any changes from the remote directory, based on the remotes that have been set up. example: "git fetch upstream/master"</td>
+      </tr>
+      <tr>
+        <td class="command">git merge</td>
+        <td>combines what has been fetched with what already exists in your local directory. example: "git merge upstream/master"</td>
+      </tr>
+      <tr>
+        <td class="command">git add -u</td>
+        <td>updates the index - removes as well as modifies index entries to match the working tree. Nifty if you want to delete files.</td>
+      </tr>
+    </table>
+  </p>
+  <p id = "footer">
+    Contact us if you have any questions or suggestions! Email us at ayakokurushima@gmail.com or brandimford@gmail.com
+  </p>
+</body>
+</html>
