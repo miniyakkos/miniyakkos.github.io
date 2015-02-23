@@ -16,29 +16,44 @@
       This week I learned a lot about classes. I've watched CS lectures online so I had a general idea of what they were. Classes are a way of creating multiple objects that can respond to the same sets of methods defined inside a class. This might be a difficult concept to understand at first, so let's use an example. Let's pretend we're making an awesome video game with different classes of people. Let's make a class called mage!
     </p>
     <p>
-      First thing first, we'll need to create the class:</br></br>
+      First thing first, we'll need to create the class:
+    </p>
+    <p class="code">
       class Mage</br>
-      end</br></br>
-      This class does nothing at the moment. We can define an initialize method that gives certain characteristics to all Mages that are created. Let's say in our game, all Mages start at level 1.</br></br>
+      end
+    </p>
+    <p>
+      This class does nothing at the moment. We can define an initialize method that gives certain characteristics to all Mages that are created. Let's say in our game, all Mages start at level 1.
+    </p>
+    <p class="code">
       class Mage</br>
         def initialize</br>
           @level = 1</br>
         end</br>
-      end</br></br>
+      end
+    </p>
+    <p>
       The @ marks a variable as an instance variable. This means that it is a variable that belongs to a single instance. In this case, one Mage's level doesn't interfere with another Mage's level, since all Mages are different instances. It also means that any method inside the class Mage can access that variable.
     </p>
     <p>
-      So what exactly makes a Mage a Mage? They are able to cast a magic spell! Let's add that ability to the class.</br></br>
+      So what exactly makes a Mage a Mage? They are able to cast a magic spell! Let's add that ability to the class.
+    </p>
+    <p class="code">
       class Mage</br>
         def initialize</br>
           @level = 1</br>
-        end</br>
+        end</br></br>
         def magic_spell</br>
           casts fireball</br>
         end</br>
-      end</br></br>
-      The method magic_spell can be used only by people of class Mage. Let's create a new Mage.</br></br>
-      Mage.new</br></br>
+      end
+    </p>
+    <p>
+      The method magic_spell can be used only by people of class Mage. Let's create a new Mage.
+    </p>
+    <p class="code">
+      Mage.new
+    </p>
       And that's how you create a new Mage.
     </p>
     <p>

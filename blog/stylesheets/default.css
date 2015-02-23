@@ -1,6 +1,6 @@
 body {
 	font-family: Arial;
-	color: white;
+	color: #B8B0B5
 	background-color: #323436;
 }
 #header {
@@ -24,9 +24,9 @@ body {
 	padding: 10px;
 }
 a:link {
-	color: white;
+	color: #B8B0B5;
 }
 
 a:visited {
-	color: white;
+	color: #B8B0B5;
 }

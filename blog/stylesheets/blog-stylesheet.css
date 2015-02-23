@@ -16,6 +16,9 @@
     height: 50px;
     margin: auto;
 }
+.code {
+    font-family: Courier
+}
 section {
     width: 60%;
     margin: auto;

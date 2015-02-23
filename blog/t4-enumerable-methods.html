@@ -15,13 +15,13 @@
     <p>
       Enumerable Methods are very useful when it comes to sorting and searching through a collection. One of the methods is #map. The map method runs a block of code following the method and returns the results in an array. (If you're unfamiliar with arrays, take a look at my previous blog post <a href="https://miniyakkos.github.io/blog/t3-arrays-hashes.html">here</a>). Here's an example of the map method in action:
     </p>
-    <p>
+    <p class="code">
       [1, 2, 3, 4, 5].map { |x| x + 10 }
     </p>
     <p>
       This method returns an array of numbers 11 to 15, or [11, 12, 13, 14, 15]. It adds 10 to each element of the array. The x is just a placeholder so the method can run the block of code (x + 10) for each element, x. The original array is unmodified, the map method returns a new array. This means that if we assign the original array to a variable and run map like this:
     </p>
-    <p>
+    <p class="code">
       arr = [1, 2, 3, 4, 5]<br>
       arr.map { |x| x + 10 }
     </p>
