@@ -1,32 +1,44 @@
-body {
-	font-family: Arial;
-	color: #B8B0B5;
-	background-color: #323436;
-}
-#header {
-	width: 100%;
-	height: 300px;
-}
-#navigation-bar {
-	text-align: center;
-	margin-bottom: 20px;
-}
-#navigation-bar h2 {
-	display: inline-block;
-	width: auto;
-	margin-left: 10px;
-	margin-right: 10px;
-}
-#sidebar {
-	width: 20%;
-	text-align: center;
-	border: 1px solid white;
-	padding: 10px;
-}
-a:link {
-	color: #B8B0B5;
+.name {
+	font-family: "Bad Script", Arial;
+  font-size: 2em;
+  font-weight: 900;
+  color: #132028;
+  padding: 1%;
+  display: inline-block;
 }
 
-a:visited {
-	color: #B8B0B5;
+.nav-bar {
+	background-color: #ADE0EE;
+	margin: 0;
+}
+
+.profile-pic {
+	display: inline-block;
+	border-radius: 100%;
+	padding: 0.5%;
+	float: left;
+}
+
+.splash {
+	margin: 0;
+	padding: 0;
+	background-image: url("https://download.unsplash.com/photo-1422640805998-18a4dd89bec2");
+	background-size: 100% 100%;
+	height: 600px;
+}
+
+.items {
+	display: inline-block;
+	font-family: "Raleway", Arial;
+	padding: 1% 2%;
+	float: right;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+a:hover {
+	text-decoration: underline;
 }
