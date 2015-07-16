@@ -27,11 +27,45 @@
 	height: 600px;
 }
 
+.welcome {
+  color: white;
+  font-size: 4em;
+  text-align: center;
+  margin: 0;
+  font-family: "Raleway", Arial;
+  padding-top: 15%;
+}
+
+.header {
+  text-align: center;
+  font-size: 2em;
+  font-family: "Raleway", Arial;
+  margin: 0;
+  color: #93B6D9;
+}
+
 .items {
 	display: inline-block;
 	font-family: "Raleway", Arial;
 	padding: 1% 2%;
 	float: right;
+}
+
+
+.about {
+  background-color: #121f27;
+}
+
+p.intro {
+  color: #93B6D9;
+  text-align: center;
+  padding: 1% 5%;
+  font-family: "Raleway", Arial;
+}
+
+img.skills {
+  height: 10%;
+  width: 10%;
 }
 
 a {
