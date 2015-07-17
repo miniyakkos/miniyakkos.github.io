@@ -1,3 +1,8 @@
+html,body {
+  padding:0;
+  margin:0;
+}
+
 .name {
 	font-family: "Bad Script", Arial;
   font-size: 2em;
@@ -42,6 +47,7 @@
   font-family: "Raleway", Arial;
   margin: 0;
   color: #93B6D9;
+  padding: 1%;
 }
 
 .items {
@@ -64,15 +70,25 @@ p.intro {
 }
 
 img.skills {
-  height: 10%;
-  width: 10%;
+  height: 100px;
+  width: 100px;
+  padding: 1%;
+}
+
+.skill {
+  text-align: center;
+  padding: 1%;
 }
 
 a {
-	text-decoration: none;
-	color: black;
+  text-decoration: none;
+  color: black;
 }
 
 a:hover {
-	text-decoration: underline;
+  text-decoration: underline;
+}
+
+.project {
+  font-family: "Raleway", Arial;
 }
